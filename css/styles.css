@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Galkin-Regular";
+  src: url(./fonts/GraphikLCG-Regular.ttf) format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Galkin-Semibold";
+  src: url(./fonts/GraphikLCG-Semibold.ttf) format("ttf");
+  font-weight: 600;
+}
+
+* {
+  box-sizing: content-box;
+  font-family: "Galkin-Regular", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 1290px;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 2px solid #c6c2c2;
+}
+
+.menu {
+  align-self: center;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+
+.header_logo {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 40px;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+.navi {
+  font-size: 0;
+}
+
+.nav_items {
+  font-size: 15px;
+  display: inline-block;
+  line-height: 20px;
+  margin-right: 57px;
+}
+
+.nav_link {
+  color: black;
+}
+
+.btn_cont {
+  display: inline-block;
+  justify-self: end;
+  margin-left: auto;
+}
+
+.btn {
+  padding: 14px 36px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn_login {
+  font-family: "Galkin-Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  color: #000;
+  margin-right: 10px;
+}
+
+.btn_free {
+  font-family: "Galkin-Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  background: #ff6336;
+  color: white;
+}
+
+.start_section {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 0 0 51%;
+}
+
+.start_section_img {
+  margin-top: 151px;
+  width: 759px;
+  height: 529px;
+}
+
+.start_wrapper {
+  margin-top: 129px;
+  text-align: left;
+}
+
+.start_secion__title {
+  font-family: "Galkin-Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 70px;
+  color: #000000;
+}
+
+.start_section__description {
+  font-size: 25px;
+  line-height: 35px;
+  width: 471px;
+  margin: 51px 0;
+}
+
+.start_secion__trialinfo {
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.portfolio {
+  background-color: #ff9c7d;
+  padding: 103px 0;
+}
+
+.portfolio__title {
+  font-family: "Galkin-Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 70px;
+}
+
+.portfolio__logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 25px;
+}
