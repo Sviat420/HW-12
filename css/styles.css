@@ -1,20 +1,33 @@
 @font-face {
-  font-family: "Galkin-Regular";
+  font-family: "GraphikLCG-Regular";
   src: url(./fonts/GraphikLCG-Regular.ttf) format("ttf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Galkin-Semibold";
+  font-family: "GraphikLCG-Semibold";
   src: url(./fonts/GraphikLCG-Semibold.ttf) format("ttf");
   font-weight: 600;
 }
 
 * {
   box-sizing: content-box;
-  font-family: "Galkin-Regular", sans-serif;
+  font-family: "GraphikLCG-Regular", sans-serif;
   text-decoration: none;
   list-style: none;
+}
+
+h2 {
+  font-family: "GraphikLCG-Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+p {
+  font-size: 25px;
+  line-height: 35px;
+  margin: 51px 0;
 }
 
 .container {
@@ -70,7 +83,7 @@ header {
 }
 
 .btn_login {
-  font-family: "Galkin-Semibold", sans-serif;
+  font-family: "GraphikLCG-Semibold", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 45px;
@@ -80,7 +93,7 @@ header {
 }
 
 .btn_free {
-  font-family: "Galkin-Semibold", sans-serif;
+  font-family: "GraphikLCG-Semibold", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 45px;
@@ -107,14 +120,14 @@ header {
 }
 
 .start_secion__title {
-  font-family: "Galkin-Semibold", sans-serif;
+  font-family: "GraphikLCG-Semibold", sans-serif;
   font-weight: 600;
   font-size: 65px;
   line-height: 70px;
   color: #000000;
 }
 
-.start_section__description {
+.start_wrapper > .start_section__description {
   font-size: 25px;
   line-height: 35px;
   width: 471px;
@@ -133,7 +146,7 @@ header {
 }
 
 .portfolio__title {
-  font-family: "Galkin-Semibold", sans-serif;
+  font-family: "GraphikLCG-Semibold", sans-serif;
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
@@ -148,4 +161,79 @@ header {
   align-items: center;
   margin: 0;
   padding: 0 25px;
+}
+
+.slideshow {
+  margin-top: 90px;
+}
+
+.slides {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 250px;
+}
+
+.last_slide {
+  margin-bottom: 150px;
+}
+
+.slides__text {
+  max-width: 38%;
+}
+
+.slides__text_title {
+  margin: 0;
+}
+
+.slides__text_description {
+  margin: 30px 0;
+}
+
+.slides__text_link {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.slides_reverse {
+  flex-direction: row-reverse;
+}
+
+.services {
+  background-color: #fff8e4;
+  padding-top: 120px;
+}
+
+.services__title {
+  text-align: center;
+  margin-bottom: 79px;
+}
+
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 40px;
+  align-content: center;
+}
+
+.services__cards_card {
+  max-width: 320px;
+  text-align: center;
+}
+
+.cardname {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.card_discriprion {
+  width: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
 }
